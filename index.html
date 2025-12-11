@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<h2>Employment Application</h2>
+<p>If you are interested in joining the Kiddie Junction Corbin team, please complete the form below. Your answers will be emailed directly to our center.</p>
+<p class="form-note">Note: This form uses your email program to send the application. We can switch to an online form service later if you prefer.</p>
+<form action="mailto:kiddiejunctioncorbin@gmail.com" method="post" enctype="text/plain">
+<label>Full Name:<br>
+<input type="text" name="Full Name" placeholder="Your full name" required>
+</label>
+<label>Email:<br>
+<input type="email" name="Email" placeholder="you@example.com" required>
+</label>
+<label>Phone Number:<br>
+<input type="tel" name="Phone" placeholder="(555) 555-5555" required>
+</label>
+<label>Position Interested In:<br>
+<input type="text" name="Position" placeholder="Preschool teacher, aide, floater, etc." required>
+</label>
+<label>Previous Experience:<br>
+<textarea name="Previous Experience" placeholder="Tell us about your childcare or related experience"></textarea>
+</label>
+<label>Why You Want to Work Here:<br>
+<textarea name="Why Kiddie Junction" placeholder="Why would you be a great fit for Kiddie Junction Corbin?"></textarea>
+</label>
+<label>Can you pass a background check?<br>
+<select name="Background Check" required>
+<option value="">Please choose</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</label>
+<label>Do you have a high school diploma / GED?<br>
+<select name="Diploma / GED" required>
+<option value="">Please choose</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</label>
+<label>Can you pass a drug test?<br>
+<select name="Drug Test" required>
+<option value="">Please choose</option>
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</select>
+</label>
+<button type="submit" class="btn btn-primary" style="margin-top:6px;">Submit Application</button>
+</form>
+</section>
+
+<section id="waitlist" class="section">
+<h2>Join Our Waiting List</h2>
+<p>Interested in enrolling your child at Kiddie Junction Corbin? Fill out the form below and we will contact you as soon as a spot becomes available.</p>
+<form action="mailto:kiddiejunctioncorbin@gmail.com" method="post" enctype="text/plain">
+<label>Your Name:<br>
+<input type="text" name="Parent Name" placeholder="Your name" required>
+</label>
+<label>Child's Name:<br>
+<input type="text" name="Child Name" placeholder="Child's name" required>
+</label>
+<label>Child's Age:<br>
+<input type="number" name="Child Age" min="0" max="18" placeholder="Age in years" required>
+</label>
+<label>Phone Number:<br>
+<input type="tel" name="Phone" placeholder="Best number to reach you" required>
+</label>
+<button type="submit" class="btn btn-secondary" style="margin-top:6px;">Submit to Waiting List</button>
+</form>
+</section>
+
+<section id="contact" class="section">
+<h2>Contact Us</h2>
+<p><strong>Phone:</strong> <a href="tel:16063121646">606-312-1646</a></p>
+<p><strong>Email:</strong> <a href="mailto:kiddiejunctioncorbin@gmail.com">kiddiejunctioncorbin@gmail.com</a></p>
+<p><strong>Facebook:</strong> Message our Kiddie Junction Corbin page anytime for questions or to schedule a tour.</p>
+</section>
+</main>
+
+<footer>
+<p>&copy; <span id="year"></span> Kiddie Junction Corbin • All Rights Reserved</p>
+</footer>
+
+<script>
+// Set current year in footer
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
